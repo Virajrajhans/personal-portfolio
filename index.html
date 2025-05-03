@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/988289f8ce.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<nav>
+  <img src="image/ChatGPT Image logo.png" class="logo" alt="Logo">
+  <ul>
+    <li><a href="#main-section">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#Services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#Contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Main Section -->
+<div class="main-section">
+  <div class="header-text">
+    <p>Data Science/Data analytics</p>
+    <h1>Hi, I'm Viraj Rajhans<br>from India</h1>
+  </div>
+  <div class="image-container">
+    <img src="image/viraj_portfolio_image-removebg-preview (1).png" alt="My Portfolio" class="Portfolio6">
+  </div>
+</div>
+<!---------about------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/professional image man.webp">
+            </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I’m a data scientist with a passion for turning raw data into meaningful insights that drive strategic decisions.
+              With a strong foundation in statistics, machine learning,and data visualization, I specialize in building predictive models,
+               uncovering trends, and crafting data-driven solutions to complex problems.
+              My work bridges the gap between data and action—combining analytical rigor with a clear, business-oriented mindset.
+              and I’m proficient in tools such as Python, SQL, power BI  Whether collaborating with cross-functional teams or exploring data independently,
+               I bring curiosity, precision, and a problem-solving approach to every challenge.</p>
+
+               <div class="tab-tittle">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+               </div>
+               <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                  <li><span>Data science/Data analysis</span><br>Data Collection & preprocessing</li>
+                  <li><span>Exploratory Data Anslysis (EDA)</span><br>Data visualization & statistical summaries and correlation analysis</li>
+                  <li><span>Data Extraction & Cleaning</span><br>Using SQL,Excel and Pandas for data manipulation</li>
+                  <li><span>Visualization & Dashboarding</span><br>Create dashbords in Power BI,Tableau,or using Python</li>
+                  
+                </ul>
+               </div>
+               <div class="tab-contents" id="Experience">
+                <ul>
+                  <li><span>2024-current</span><br>B-tech  from vishveshwarya group of institutions</li>
+                  <li><span>Dec28-2024</span><br>Career Essentials in Data Analysis by Microsoft</li>
+                  <li><span>dec27-2024</span><br>Introduction to Career Skills in Data Analytics </li>
+                  <li><span>dec18-2024</span><br>Career Essentials in Generative AI by microshoft </li>
+                  
+                </ul>
+               </div>
+               <div class="tab-contents" id="Education">
+                <ul>
+                  <li><span>2024-current</span><br>B-tech  from vishveshwarya group of institutions</li>
+                  <li><span>10/03/2024</span><br>Advance Diploma in compuer Application(ADCA)</li>
+                  <li><span>2024</span><br>Intermediate Examination in state Board </li>
+                  <li><span>2021</span><br>CLASS 10 in CBSE</li>
+                  
+                </ul>
+               </div>
+        </div>
+    </div>
+</div>
+<!------services---------- -->
+<div id="Services">
+  <div class="container">
+    <h1 class="sub-title">MY Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-atom"></i>
+        <h2>Data Science</h2>
+        <p>The data science projects showcased here are intended for learning and demonstration purposes.
+          Any data used is either publicly available or simulated and does not represent proprietary or sensitive information.</p>
+          <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-magnifying-glass-chart"></i>
+        <h2>Data analysis</h2>
+        <p>All data analyses and visualizations presented in this portfolio are for educational and demonstration purposes only.
+          They may use public datasets or synthetic data and do not reflect real-world business decisions or confidential information</p>
+          <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>web Design</h2>
+        <p>The web designs featured in this portfolio are created for personal, educational, or demonstration purposes. They do not imply affiliation with or endorsement by any brand or organization shown.</p>
+          <a href="#">Learn more</a>
+      </div>
+      <style>
+        body {
+          color: white;
+          background-color: black;
+          font-family: Arial, sans-serif;
+        }
+      
+        a {
+          color: #ff4b5c;
+          text-decoration: none;
+        }
+      
+        a:hover {
+          text-decoration: underline;
+        }
+      </style>
+      
+    </div>
+  </div>
+</div>
+<!---------portfolio---------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      
+      <div class="work">
+        <div class="work-item">
+          <img src="image/image 1 (2).jpg" alt="Project 1">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>This app connects you to the talented people </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="work">
+        <div class="work-item">
+          <img src="image/image 2.jpg" alt="Project 2">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>Platform to connect with friends and share updates.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="work">
+        <div class="work-item">
+          <img src="image/image 3 (2).jpg" alt="Project 3">
+          <div class="layer">
+            <h3>E-Commerce App</h3>
+            <p>Shop and discover products from global sellers.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!-----------contact-------------->
+<div id="Contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>virajrajhans123@gmail.com</p>
+        <P><i class="fa-solid fa-square-phone"></i>8210405652</P>
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="image/resume.pdf" download  class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="sumit" class="btn btn2"> Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname) {
+    for (let link of tablinks) {
+      link.classList.remove("active-link");
+    }
+    for (let content of tabcontents) {
+      content.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzhJCWi8ZmJqUYCsa2ctgXyVMgpeKtiQk7A8kMJR8wnmldzdOMBo3Z2kUYrVAhCO6hk/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg =document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML= "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
